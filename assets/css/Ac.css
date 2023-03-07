@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #1A2540;
+}
+
+.loginBx {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+    /* red bckrnd for debuging (remove it) */
+    background-color: #272e41;
+    border-radius: 25px;
+}
+
+.titleBx {
+    width: 100%;   
+}
+
+.titleBx h1.title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 72px;
+    margin: 50px;
+}
+
+.cao h3.title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 24px;
+    margin: 50px;
+   
+}
+
+
+
+.img_logo {
+    height: 1%;
+    width: 1%;
+}
+
+.fields {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.field {
+    align-self: center;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+.field .input {
+    width: 650px;
+    height: 55px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    border-radius: 18px;
+    margin: 10px;
+    padding-left: 20px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+
+img[alt="www.000webhost.com"] {
+    display: none;
+}
